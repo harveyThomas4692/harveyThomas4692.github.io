@@ -20,7 +20,7 @@ Compact Calabi-Yau manifolds are of great importance to string theorists and mat
 
 Access to the metric has allowed for the calculation of previously inaccessible data. For example, the masses and mixings of particles in the resulting 4D physics[^1] - a crucial component for the phenomenology of string theory. This has also allowed one to check a number of the assumptions made in string compactifications, in particular if the \(\alpha'\) expansion is really under control in when the volume of the compact space is large. I've contributed to both of these problems in the papers and repositories below.
 
-**Not so flat metrics**, Cristofero S. Fraser-Taliente, Thomas R. Harvey, Manki-Kim. [2024 preprint](https://arxiv.org/abs/2411.00962). [GitHub Repository](https://github.com/kitft/cymetricap).
+**Not so flat metrics**, Cristofero S. Fraser-Taliente, Thomas R. Harvey, Manki Kim. [2024 preprint](https://arxiv.org/abs/2411.00962). [GitHub Repository](https://github.com/kitft/cymetricap).
 
 **Computation of quark masses from string theory**, Andrei Constantin, Cristofero S. Fraser-Taliente, Thomas R. Harvey, Andre Lukas, Burt Ovrut. Published in: Nucl.Phys.B 1010 (2025) 116778. [2024 preprint](https://arxiv.org/abs/2402.01615). [GitHub Repository](https://github.com/kitft/heteroticyukawas).
 
@@ -71,7 +71,7 @@ String theory is not the only area of high energy theory that has large landscap
 **Spatially homogeneous universes with late-time anisotropy**, Andrei Constantin, Thomas R. Harvey, Sebastian von Hausegger, Andre Lukas. Class.Quant.Grav. 40 (2023) 24, 245015. [2023 preprint](https://arxiv.org/abs/2212.03234)
 
 ### Links and Contact
-[MIT-email](trharvey@mit.edu)
+[Email](mailto:trharvey@mit.edu)
 
 [Inspire-HEP](https://inspirehep.net/authors/1851078?ui-citation-summary=true)
 
