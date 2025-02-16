@@ -26,7 +26,7 @@ Access to the metric has allowed for the calculation of previously inaccessible 
 
 Although it wasn't used in any of the above publications, I have written [my own code](https://github.com/harveyThomas4692/jax_metric_CalabiYau) for finding these Ricci-flat metrics. The method is equivalent to the phi-model introduced in [cymetric](https://github.com/pythoncymetric/cymetric) but with projective neural networks that automatically satisfy the transition loss criteria. This was written mostly for my own amusement, as I wanted something, unlike the alternatives, in a functional programming paradigm. My hope being that this would maximise clarity, over speed, for someone who is more familiar with the mathematics than the computational methods. As such, I've used this when introducing mathematicians and physicists to numerical geometry. For research purposes, I suggest using either [cymetric]https://github.com/pythoncymetric/cymetric or [cymyc](https://github.com/Justin-Tan/cymyc) which are both more generic.
 
-[^1]: Which should note that there is a special exception here for non-geometric models and the standard embedding for the heterotic string. Both of which have proven to be very restrictive for obtaining quasi-realistic physics.
+[^1]: We should note that there is a special exception here for non-geometric models and the standard embedding for the heterotic string. Both of which have proven to be very restrictive for obtaining quasi-realistic physics.
 
 ### Discrete Optimisation for String Theory with Reinforcement Learning and Genetic Algorithms
 All of the phenomenologically promising constructions from string theory result in vast landscapes. Focusing on perturbative IIB
