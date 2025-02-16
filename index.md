@@ -1,19 +1,15 @@
-# Thomas harvey
-
-Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and Fundamental Interactions)](https://iaifi.org/) fellow at MIT.
-
-My reseach predomentalty lies at the interesection of machine learning to theoretical physics and mathematics.
+Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and Fundamental Interactions)](https://iaifi.org/) fellow at MIT. My reseach predomentalty lies at the interesection of machine learning to theoretical physics and mathematics. See the research section further down for more details.
 
 ## Education
-### University of Oxford (DPhil) - Theoretical Physics
+**University of Oxford (DPhil) - Theoretical Physics**
 
 Thesis Title: ["Navigating the string landscape with machine learning techniques"](https://ora.ox.ac.uk/objects/uuid:faa8c757-75f7-4660-a9e2-ba60bc3eacf1)
 
 Advisor: Andre Lukas
 
-### University of Cambridge (MASt) - MASt Part III of the Mathematical Tripos
+**University of Cambridge (MASt) - MASt Part III of the Mathematical Tripos**
 
-### Royal Holloway, University of London (MPhys) - Physics
+**Royal Holloway, University of London (MPhys) - Physics**
 
 Martin-Holloway Prize for graduating top of science faculty
 
@@ -22,6 +18,8 @@ Martin-Holloway Prize for graduating top of science faculty
 ### Numerical Geometry with Neural Networks
 
 ### Discrete Optimisation for String Theory with Reinforcement Learning and Genetic Algorithmns
+
+### Other Work
 
 ### Links
 [Inspire-HEP](https://inspirehep.net/authors/1851078?ui-citation-summary=true)
