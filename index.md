@@ -72,13 +72,8 @@ String theory is not the only area of high energy theory that has large landscap
 
 ### Links and Contact
 [Email](mailto:trharvey@mit.edu)
-
-[Inspire-HEP](https://inspirehep.net/authors/1851078?ui-citation-summary=true)
-
-[Google Scholar](https://scholar.google.com/citations?user=JwMJUhwAAAAJ&hl=en)
-
-[GitHub](https://github.com/harveyThomas4692)
-
-[Linkedin](https://www.linkedin.com/in/thomas-harvey-1ab91012a/)
-
-[Twitter/X](https://x.com/Airsofter4692) 
+  [Inspire-HEP](https://inspirehep.net/authors/1851078?ui-citation-summary=true)
+  [Google Scholar](https://scholar.google.com/citations?user=JwMJUhwAAAAJ&hl=en)
+  [GitHub](https://github.com/harveyThomas4692)
+  [Linkedin](https://www.linkedin.com/in/thomas-harvey-1ab91012a/)
+  [Twitter/X](https://x.com/Airsofter4692) 
