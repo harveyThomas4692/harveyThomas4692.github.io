@@ -18,7 +18,7 @@ Although it wasn't used in any of the above publications, I have written [my own
 ### Discrete Optimisation for String Theory with Reinforcement Learning and Genetic Algorithms
 All of the phenomenologically promising constructions from string theory result in vast landscapes. Focusing on perturbative IIB
 sector, early estimates suggest O(10⁵⁰⁰) vacua by enumerating the possible choices
-of flux. Later work extended the previous number to O(10^²⁷²⁰⁰⁰) by considering
+of flux. Later work extended the previous number to O(10²⁷²⁰⁰⁰) by considering
 the strong-coupling regime with F-Theory. One may worry, that with such a gigantic “string landscape”, identifying those
 few constructions of phenomenological interest may seem impossible. However, in
 recent years, developments in machine learning have allowed for the navigation of
