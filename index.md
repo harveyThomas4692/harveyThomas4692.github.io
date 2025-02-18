@@ -3,9 +3,9 @@ Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and F
 ## Research
 
 ### Numerical Geometry with Neural Networks
-Compact Calabi-Yau manifolds are of great importance to string theorists and mathematicians. They serve as the building blocks for many supersymmetric string compactifications. Despite being studied for half a decade, and many examples being known to exist (see Enumerating Calabi-Yau Manifolds below), no are no closed analytic expressions for the Ricci-flat metrics on these spaces for $`D>4`$. However, recent progress has been made in finding numerical approximations to the Ricci-flat metrics, where the metric is represented by the neural network.
+Compact Calabi-Yau manifolds are of great importance to string theorists and mathematicians. They serve as the building blocks for many supersymmetric string compactifications. Despite being studied for half a decade, and many examples being known to exist (see Enumerating Calabi-Yau Manifolds below), no are no closed analytic expressions for the Ricci-flat metrics on these spaces for D>4. However, recent progress has been made in finding numerical approximations to the Ricci-flat metrics, where the metric is represented by the neural network.
 
-Access to the metric has allowed for the calculation of previously inaccessible data. For example, the masses and mixings of particles in the resulting 4D physics[^1] - a crucial component for the phenomenology of string theory. These have also allowed one to check a number of the assumptions made in string compactifications, in particular if the $`\alpha'`$ expansion is really under control in when the volume of the compact space is large. I've contributed to both of these problems in the papers and repositories below.
+Access to the metric has allowed for the calculation of previously inaccessible data. For example, the masses and mixings of particles in the resulting 4D physics[^1] - a crucial component for the phenomenology of string theory. These have also allowed one to check a number of the assumptions made in string compactifications, in particular if the α' expansion is really under control in when the volume of the compact space is large. I've contributed to both of these problems in the papers and repositories below.
 
 **Not so flat metrics**, Cristofero S. Fraser-Taliente, Thomas R. Harvey, Manki Kim. [2024 preprint](https://arxiv.org/abs/2411.00962). [GitHub Repository](https://github.com/kitft/cymetricap).
 
@@ -17,13 +17,13 @@ Although it wasn't used in any of the above publications, I have written [my own
 
 ### Discrete Optimisation for String Theory with Reinforcement Learning and Genetic Algorithms
 All of the phenomenologically promising constructions from string theory result in vast landscapes. Focusing on perturbative IIB
-sector, early estimates suggest $`O(10^{500})`$ vacua by enumerating the possible choices
-of flux. Later work extended the previous number to $`O(10^{272,000})`$ by considering
+sector, early estimates suggest O(10⁵⁰⁰) vacua by enumerating the possible choices
+of flux. Later work extended the previous number to O(10^²⁷²⁰⁰⁰) by considering
 the strong-coupling regime with F-Theory. One may worry, that with such a gigantic “string landscape”, identifying those
 few constructions of phenomenological interest may seem impossible. However, in
 recent years, developments in machine learning have allowed for the navigation of
 other large environments. For example, the AlphaGo project was able to train a
-neural network to play the game of Go (a game with $`O(10^{172}`$ board configurations)
+neural network to play the game of Go (a game with 10¹⁷² board configurations)
 at the same level as the world’s best players. I have been at the forefront of using such heuristic algorithms, such as long time-horizon reinforcement learning, in this context. This line of research also formed the majority of [my DPhil thesis](https://ora.ox.ac.uk/objects/uuid:faa8c757-75f7-4660-a9e2-ba60bc3eacf1).
 
 In order to tie in with an existing Mathematica codebase for string theory calculations, I realised REINFORCE, A2C and a genetic algorithm in Mathematica. For another project I also realise a genetic algorithm in C. The repositories of which can be found by following the links below
