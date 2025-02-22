@@ -1,4 +1,8 @@
 Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and Fundamental Interactions)](https://iaifi.org/) fellow at MIT. My research predominately lies at the intersection of machine learning, theoretical physics and mathematics. See the research section further down for more details.
+-[Research](#research)
+-[Education](#education)
+-[Links and Contact](#links-and-contact)
+
 
 # Research
 - [Numerical Geomtry with Neural Networks](#numerical-geometry-with-neural-networks)
@@ -74,9 +78,9 @@ Advisor: Andre Lukas
 Martin-Holloway Prize for graduating top of science faculty
 
 # Links and Contact
-[Email](mailto:trharvey@mit.edu)
-  [Inspire-HEP](https://inspirehep.net/authors/1851078?ui-citation-summary=true)
-  [Google Scholar](https://scholar.google.com/citations?user=JwMJUhwAAAAJ&hl=en)
-  [GitHub](https://github.com/harveyThomas4692)
-  [Linkedin](https://www.linkedin.com/in/thomas-harvey-1ab91012a/)
-  [Twitter/X](https://x.com/Airsofter4692) 
+-[Email](mailto:trharvey@mit.edu)
+-[Inspire-HEP](https://inspirehep.net/authors/1851078?ui-citation-summary=true)
+-[Google Scholar](https://scholar.google.com/citations?user=JwMJUhwAAAAJ&hl=en)
+-[GitHub](https://github.com/harveyThomas4692)
+-[Linkedin](https://www.linkedin.com/in/thomas-harvey-1ab91012a/)
+-[Twitter/X](https://x.com/Airsofter4692) 
