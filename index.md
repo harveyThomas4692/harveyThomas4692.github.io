@@ -1,7 +1,7 @@
 Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and Fundamental Interactions)](https://iaifi.org/) fellow at MIT. My research predominately lies at the intersection of machine learning, theoretical physics and mathematics. See the research section further down for more details.
--[Research](#research)
--[Education](#education)
--[Links and Contact](#links-and-contact)
+- [Research](#research)
+- [Education](#education)
+- [Links and Contact](#links-and-contact)
 
 
 # Research
@@ -65,22 +65,22 @@ String theory is not the only area of high energy theory that has large landscap
 **Spatially homogeneous universes with late-time anisotropy**, Andrei Constantin, <ins>Thomas R. Harvey</ins>, Sebastian von Hausegger, Andre Lukas. Class.Quant.Grav. 40 (2023) 24, 245015. [2023 preprint](https://arxiv.org/abs/2212.03234)
 
 # Education
-**University of Oxford (DPhil) - Theoretical Physics**
+**University of Oxford (DPhil)** - Theoretical Physics
 
 Thesis Title: ["Navigating the string landscape with machine learning techniques"](https://ora.ox.ac.uk/objects/uuid:faa8c757-75f7-4660-a9e2-ba60bc3eacf1)
 
 Advisor: Andre Lukas
 
-**University of Cambridge (MASt) - MASt Part III of the Mathematical Tripos**
+**University of Cambridge (MASt)** - MASt Part III of the Mathematical Tripos
 
-**Royal Holloway, University of London (MPhys) - Physics**
+**Royal Holloway, University of London (MPhys)** - Physics
 
 Martin-Holloway Prize for graduating top of science faculty
 
 # Links and Contact
--[Email](mailto:trharvey@mit.edu)
--[Inspire-HEP](https://inspirehep.net/authors/1851078?ui-citation-summary=true)
--[Google Scholar](https://scholar.google.com/citations?user=JwMJUhwAAAAJ&hl=en)
--[GitHub](https://github.com/harveyThomas4692)
--[Linkedin](https://www.linkedin.com/in/thomas-harvey-1ab91012a/)
--[Twitter/X](https://x.com/Airsofter4692) 
+- [Email](mailto:trharvey@mit.edu)
+- [Inspire-HEP](https://inspirehep.net/authors/1851078?ui-citation-summary=true)
+- [Google Scholar](https://scholar.google.com/citations?user=JwMJUhwAAAAJ&hl=en)
+- [GitHub](https://github.com/harveyThomas4692)
+- [Linkedin](https://www.linkedin.com/in/thomas-harvey-1ab91012a/)
+- [Twitter/X](https://x.com/Airsofter4692) 
