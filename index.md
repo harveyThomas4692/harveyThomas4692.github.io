@@ -1,6 +1,10 @@
 Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and Fundamental Interactions)](https://iaifi.org/) fellow at MIT. My research predominately lies at the intersection of machine learning, theoretical physics and mathematics. See the research section further down for more details.
 
 ## Research
+- [Numerical Geomtry with Neural Networks](#Numerical-Geometry-with-Neural-Networks)
+- [Discrete Optimisation for String Theory with Reinforcement Learning and Genetic Algorithms](#Discrete-Optimisation-for-String-Theory-with-Reinforcement-Learning-and-Genetic-Algorithms)
+- [Large Language Models for Mathematics](Large-Language-Models-for-Mathematics)
+- [Other Work](#Other-Work)
 
 ### Numerical Geometry with Neural Networks
 Compact Calabi-Yau manifolds are of great importance to string theorists and mathematicians. They serve as the building blocks for many supersymmetric string compactifications. Despite being studied for half a decade, and many examples being known to exist (see Enumerating Calabi-Yau Manifolds below), no are no closed analytic expressions for the Ricci-flat metrics on these spaces for D>4. However, recent progress has been made in finding numerical approximations to the Ricci-flat metrics, where the metric is represented by the neural network. These are sometimes called Physics-informed neural networks or PINNs for short.
@@ -48,7 +52,7 @@ String theory is not the only area of high energy theory that has large landscap
 
 **Quark Mass Models and Reinforcement Learning** <ins>Thomas R. Harvey</ins>, Andre Lukas. JHEP 08 (2021) 161. [2021 preprint](https://arxiv.org/abs/2103.04759).
 
-### Large language models for mathematics
+### Large Language Models for Mathematics
 **Generative Modelling for Mathematical Discovery** - Upcoming publication. [GitHub Repository](https://github.com/kitft/funsearch).
 
 ### Other Work
