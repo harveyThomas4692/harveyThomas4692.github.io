@@ -75,7 +75,7 @@ Advisor: Andre Lukas
 
 **University of Cambridge (MASt)** - MASt Part III of the Mathematical Tripos
 
-**Royal Holloway, University of London (MPhys)** - Physics
+**Royal Holloway, University of London (MSci)** - Physics
 
 Martin-Holloway Prize for graduating top of science faculty
 
