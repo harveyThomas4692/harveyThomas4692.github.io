@@ -36,7 +36,7 @@ other large environments. For example, the AlphaGo project was able to train a
 neural network to play the game of Go (a game with 10¹⁷² board configurations)
 at the same level as the world’s best players. I have been at the forefront of using such heuristic algorithms, such as long time-horizon reinforcement learning, in this context. This line of research also formed the majority of [my DPhil thesis](https://ora.ox.ac.uk/objects/uuid:faa8c757-75f7-4660-a9e2-ba60bc3eacf1).
 
-In order to tie in with an existing Mathematica codebase for string theory calculations, I realised REINFORCE, A2C and a genetic algorithm in Mathematica. For another project I also realise a genetic algorithm in C. The repositories of which can be found by following the links below
+In order to tie in with an existing Mathematica codebase for string theory calculations, I realised REINFORCE, A2C and a genetic algorithm in Mathematica. For another project I also realised a genetic algorithm in C. The repositories of which can be found by following the links below
 - [RL in Mathematica](https://github.com/harveyThomas4692/Mathematica-RL)
 - [GA in Mathematica](https://github.com/harveyThomas4692/GAMathematica)
 - [GA in C](https://github.com/harveyThomas4692/GA-C)
