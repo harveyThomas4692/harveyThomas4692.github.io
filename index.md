@@ -42,7 +42,7 @@ In order to tie in with an existing Mathematica codebase for string theory calcu
 - [GA in C](https://github.com/harveyThomas4692/GA-C)
 
 **Fermion Masses and Mixing in String-Inspired Models**
-Andrei Constantin, Cristofero S. Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Lucas T.Y. Leung, Andre Lukas. [2024 preprint](https://arxiv.org/abs/2410.17704)
+Andrei Constantin, Cristofero S. Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Lucas T.Y. Leung, Andre Lukas. [2024 preprint](https://arxiv.org/abs/2410.17704). [GitHub Respository](https://github.com/LucasLeung149/stringFNmodels)
 
 **Decoding Nature with Nature's Tools: Heterotic Line Bundle Models of Particle Physics with Genetic Algorithms and Quantum Annealing**, Steve A. Abel, Andrei Constantin, <ins>Thomas R. Harvey</ins>, Andre Lukas, Luca A. Nutricati. Fortsch.Phys. 72 (2024) 2, 2300260. [2023 preprint](https://arxiv.org/abs/2306.03147). [GitHub Repository](https://github.com/harveyThomas4692/GA-LineBundles).
 
