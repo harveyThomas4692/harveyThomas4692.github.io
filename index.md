@@ -5,12 +5,17 @@ Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and F
 
 
 # Research
+- [Large Language Models for Mathematics](#large-language-models-for-mathematics)
 - [Numerical Geomtry with Neural Networks](#numerical-geometry-with-neural-networks)
 - [Discrete Optimisation for String Theory with Reinforcement Learning and Genetic Algorithms](#discrete-optimisation-for-string-theory-with-reinforcement-learning-and-genetic-algorithms)
-- [Large Language Models for Mathematics](#large-language-models-for-mathematics)
 - [Other Work](#other-work)
 
 All papers are listed with authors in alphabetical order, as is typical in high energy theory and pure mathematics.
+
+## Large Language Models for Mathematics
+Large language models have proven to be surprisingly effective coders. Funsearch makes use of this by incorporating a genetic algorithm for the large language model prompts, creating a new form of genetic programming. My research on this has demonstrated that Funsearch is able to learn various combinatorial and number-theoretic problems. In some cases, it even grasps principles that generalise beyond the original problem it was trained on.
+
+**Generative Modelling for Mathematical Discovery** - Upcoming publication. [GitHub Repository](https://github.com/kitft/funsearch).
 
 ## Numerical Geometry with Neural Networks
 Compact Calabi-Yau manifolds are of great importance to string theorists and mathematicians. They serve as the building blocks for many supersymmetric string compactifications. Despite being studied for half a decade, and many examples being known to exist (see Enumerating Calabi-Yau Manifolds below), no are no closed analytic expressions for the Ricci-flat metrics on these spaces for D>4. However, recent progress has been made in finding numerical approximations to the Ricci-flat metrics, where the metric is represented by the neural network. These are sometimes called Physics-informed neural networks or PINNs for short.
@@ -57,9 +62,6 @@ String theory is not the only area of high energy theory that has large landscap
 **Cosmic Inflation and Genetic Algorithms** Steve A. Abel, Andrei Constantin, <ins>Thomas R. Harvey</ins>, Andre Lukas. Fortsch.Phys. 71 (2023) 1, 2200161. [2022 preprint](https://arxiv.org/abs/2208.13804).
 
 **Quark Mass Models and Reinforcement Learning** <ins>Thomas R. Harvey</ins>, Andre Lukas. JHEP 08 (2021) 161. [2021 preprint](https://arxiv.org/abs/2103.04759).
-
-## Large Language Models for Mathematics
-**Generative Modelling for Mathematical Discovery** - Upcoming publication. [GitHub Repository](https://github.com/kitft/funsearch).
 
 ## Other Work
 **Enumerating Calabi-Yau Manifolds: Placing Bounds on the Number of Diffeomorphism Classes in the Kreuzer-Skarke List** Aditi Chandra, Andrei Constantin, Cristofero S. Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Andre Lukas. Fortsch.Phys. 72 (2024) 5, 2300264. [2023 preprint](https://arxiv.org/abs/2310.05909)
