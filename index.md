@@ -6,7 +6,7 @@ Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and F
 
 # Research
 - [Large Language Models for Mathematics](#large-language-models-for-mathematics)
-- [Numerical Geomtry with Neural Networks](#numerical-geometry-with-neural-networks)
+- [Numerical Geometry with Neural Networks](#numerical-geometry-with-neural-networks)
 - [Discrete Optimisation for String Theory with Reinforcement Learning and Genetic Algorithms](#discrete-optimisation-for-string-theory-with-reinforcement-learning-and-genetic-algorithms)
 - [Other Work](#other-work)
 
