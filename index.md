@@ -1,4 +1,4 @@
-Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and Fundamental Interactions)](https://iaifi.org/) fellow at MIT. My research predominately lies at the intersection of machine learning, theoretical physics and mathematics. See the research section further down for more details.
+Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and Fundamental Interactions)](https://iaifi.org/) fellow at MIT. My research predominantly lies at the intersection of machine learning, theoretical physics and mathematics. See the research section further down for more details.
 - [Research](#research)
 - [Education](#education)
 - [Links and Contact](#links-and-contact)
@@ -18,7 +18,7 @@ Large language models have proven to be surprisingly effective coders. Funsearch
 **Generative Modelling for Mathematical Discovery**, Jordan S. Ellenberg, Cristofero S. Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Karan Srivastava, Andrew V. Sutherland. [2025 preprint](https://arxiv.org/abs/2503.11061). [GitHub Repository](https://github.com/kitft/funsearch).
 
 ## Numerical Geometry with Neural Networks
-Compact Calabi-Yau manifolds are of great importance to string theorists and mathematicians. They serve as the building blocks for many supersymmetric string compactifications. Despite being studied for half a decade, and many examples being known to exist (see Enumerating Calabi-Yau Manifolds below), no are no closed analytic expressions for the Ricci-flat metrics on these spaces for D>4. However, recent progress has been made in finding numerical approximations to the Ricci-flat metrics, where the metric is represented by the neural network. These are sometimes called Physics-informed neural networks or PINNs for short.
+Compact Calabi-Yau manifolds are of great importance to string theorists and mathematicians. They serve as the building blocks for many supersymmetric string compactifications. Despite being studied for half a decade, and many examples being known to exist (see Enumerating Calabi-Yau Manifolds below), there are no closed analytic expressions for the Ricci-flat metrics on these spaces for D>4. However, recent progress has been made in finding numerical approximations to the Ricci-flat metrics, where the metric is represented by the neural network. These are sometimes called Physics-informed neural networks or PINNs for short.
 
 Access to the metric has allowed for the calculation of previously inaccessible data. For example, the masses and mixings of particles in the resulting 4D physics[^1] - a crucial component for the phenomenology of string theory. These have also allowed one to check a number of the assumptions made in string compactifications, in particular if the α' expansion is really under control in when the volume of the compact space is large. I've contributed to both of these problems in the papers and repositories below.
 
@@ -41,7 +41,7 @@ other large environments. For example, the AlphaGo project was able to train a
 neural network to play the game of Go (a game with 10¹⁷² board configurations)
 at the same level as the world’s best players. I have been at the forefront of using such heuristic algorithms, such as long time-horizon reinforcement learning, in this context. This line of research also formed the majority of [my DPhil thesis](https://ora.ox.ac.uk/objects/uuid:faa8c757-75f7-4660-a9e2-ba60bc3eacf1).
 
-In order to tie in with an existing Mathematica codebase for string theory calculations, I realised REINFORCE, A2C and a genetic algorithm in Mathematica. For another project I also realised a genetic algorithm in C. The repositories of which can be found by following the links below
+In order to tie in with an existing Mathematica codebase for string theory calculations, I implemented REINFORCE, A2C and a genetic algorithm in Mathematica. For another project I also realised a genetic algorithm in C. The repositories of which can be found by following the links below
 - [RL in Mathematica](https://github.com/harveyThomas4692/Mathematica-RL)
 - [GA in Mathematica](https://github.com/harveyThomas4692/GAMathematica)
 - [GA in C](https://github.com/harveyThomas4692/GA-C)
@@ -86,5 +86,5 @@ Martin-Holloway Prize for graduating top of science faculty
 - [Inspire-HEP](https://inspirehep.net/authors/1851078?ui-citation-summary=true)
 - [Google Scholar](https://scholar.google.com/citations?user=JwMJUhwAAAAJ&hl=en)
 - [GitHub](https://github.com/harveyThomas4692)
-- [Linkedin](https://www.linkedin.com/in/thomas-harvey-1ab91012a/)
+- [LinkedIn](https://www.linkedin.com/in/thomas-harvey-1ab91012a/)
 - [Twitter/X](https://x.com/Airsofter4692) 
