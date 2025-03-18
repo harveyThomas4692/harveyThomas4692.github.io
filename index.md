@@ -13,7 +13,7 @@ Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and F
 All papers are listed with authors in alphabetical order, as is typical in high energy theory and pure mathematics.
 
 ## Large Language Models for Mathematics
-Large language models have proven to be surprisingly effective coders. Funsearch makes use of this by incorporating a genetic algorithm for the large language model prompts, creating a new form of genetic programming. My research on this has demonstrated that Funsearch is able to learn various combinatorial and number-theoretic problems. In some cases, it even grasps principles that generalise beyond the original problem it was trained on.
+Large language models have proven to be surprisingly effective coders. Funsearch makes use of this by incorporating a genetic algorithm for the large language model prompts, creating a new form of genetic programming. My research on this has demonstrated that Funsearch is able to learn various combinatorial and number-theoretic problems. Further to this, we presented a comprehensive codebase allowing for others to easily run funsearch themselves.
 
 **Generative Modelling for Mathematical Discovery**, Jordan S. Ellenberg, Cristofero S. Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Karan Srivastava, Andrew V. Sutherland. [2025 preprint](https://arxiv.org/abs/2503.11061). [GitHub Repository](https://github.com/kitft/funsearch).
 
