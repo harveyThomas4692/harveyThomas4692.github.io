@@ -69,15 +69,15 @@ String theory is not the only area of high energy theory that has large landscap
 **Spatially homogeneous universes with late-time anisotropy**, Andrei Constantin, <ins>Thomas R. Harvey</ins>, Sebastian von Hausegger, Andre Lukas. Class.Quant.Grav. 40 (2023) 24, 245015. [2023 preprint](https://arxiv.org/abs/2212.03234)
 
 # Education
-**University of Oxford (DPhil)** - Theoretical Physics
+**University of Oxford (DPhil)** - Theoretical Physics (2020-2024)
 
 Thesis Title: ["Navigating the string landscape with machine learning techniques"](https://ora.ox.ac.uk/objects/uuid:faa8c757-75f7-4660-a9e2-ba60bc3eacf1)
 
 Advisor: Andre Lukas
 
-**University of Cambridge (MASt)** - MASt Part III of the Mathematical Tripos
+**University of Cambridge (MASt)** - MASt Part III of the Mathematical Tripos (2019-2020)
 
-**Royal Holloway, University of London (MSci)** - Physics
+**Royal Holloway, University of London (MSci)** - Physics (2015-2019)
 
 Martin-Holloway Prize for graduating top of science faculty
 
