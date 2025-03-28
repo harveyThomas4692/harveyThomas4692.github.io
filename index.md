@@ -75,7 +75,7 @@ Thesis Title: ["Navigating the string landscape with machine learning techniques
 
 Advisor: Andre Lukas
 
-**University of Cambridge (MASt)** - MASt Part III of the Mathematical Tripos (2019-2020)
+**University of Cambridge (MASt)** - Part III of the Mathematical Tripos (2019-2020)
 
 **Royal Holloway, University of London (MSci)** - Physics (2015-2019)
 
