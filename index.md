@@ -83,7 +83,7 @@ Advisor: Andre Lukas
 Martin-Holloway Prize for graduating top of science faculty
 
 # Outreach
-When at Cambridge I met Alessandro Roussel, who runs the popular science channel [ScienceClic](https://www.youtube.com/@ScienceClicEN)), along with the [original French Channel](https://www.youtube.com/c/ScienceClic). I have been involved (and am still involved) in giving scientific advise for the channel. 
+When at Cambridge I met Alessandro Roussel, who runs the popular science channel [ScienceClic](https://www.youtube.com/@ScienceClicEN), along with the [original French Channel](https://www.youtube.com/c/ScienceClic). I have been involved (and am still involved) in giving scientific advise for the channel. 
 
 Some of the most watched videos include I am credited for (views listed at time of writing):
 - 4.4M [String Theory](https://youtu.be/n7cOlBxtKSo?si=tTSxxldB1bXPRMoQ)
