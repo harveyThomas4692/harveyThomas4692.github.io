@@ -11,7 +11,7 @@ Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and F
 - [Discrete Optimisation for String Theory with Reinforcement Learning and Genetic Algorithms](#discrete-optimisation-for-string-theory-with-reinforcement-learning-and-genetic-algorithms)
 - [Other Work](#other-work)
 
-**Unless indicated with a $\dagger$, all papers are listed with authors in alphabetical order, which is standard convention in high energy theory and pure mathematics.**
+**Unless indicated with a †, all papers are listed with authors in alphabetical order, which is standard convention in high energy theory and pure mathematics.**
 
 ## Large Language Models for Mathematics
 Large language models have proven to be surprisingly effective coders. Funsearch makes use of this by incorporating a genetic algorithm for the large language model prompts, creating a new form of genetic programming. My research on this has demonstrated that Funsearch is able to learn various combinatorial and number-theoretic problems. Further to this, we presented a comprehensive codebase allowing for others to easily run funsearch themselves.
