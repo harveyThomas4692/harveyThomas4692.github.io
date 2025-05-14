@@ -16,7 +16,7 @@ Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and F
 ## Large Language Models for Mathematics
 Large language models have proven to be surprisingly effective coders. Funsearch makes use of this by incorporating a genetic algorithm for the large language model prompts, creating a new form of genetic programming. My research on this has demonstrated that Funsearch is able to learn various combinatorial and number-theoretic problems. Further to this, we presented a comprehensive codebase allowing for others to easily run funsearch themselves. On a related front, I used very similar methedology to create a new appropach to symbolic regression based on multi-model large language models and Kolmogorov–Arnold Networks.
 
-**Symbolic Regression with Multimodal Large Language Models and Kolmogorov–Arnold Networks †**, <ins>Thomas R. Harvey</ins>, Fabian Ruehle, Cristofero S. Fraser-Taliente, James Halverson. 2025 preprint. [GitHub Repository](https://github.com/harveyThomas4692/llmlex).
+**Symbolic Regression with Multimodal Large Language Models and Kolmogorov–Arnold Networks †**, <ins>Thomas R. Harvey</ins>, Fabian Ruehle, Cristofero S. Fraser-Taliente, James Halverson. [2025 preprint](https://arxiv.org/abs/2505.07956). [GitHub Repository](https://github.com/harveyThomas4692/llmlex).
 
 **Generative Modelling for Mathematical Discovery**, Jordan S. Ellenberg, Cristofero S. Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Karan Srivastava, Andrew V. Sutherland. [2025 preprint](https://arxiv.org/abs/2503.11061). [GitHub Repository](https://github.com/kitft/funsearch).
 
