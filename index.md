@@ -16,18 +16,18 @@ Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and F
 ## Large Language Models for Mathematics
 Large language models have proven to be surprisingly effective coders. Funsearch makes use of this by incorporating a genetic algorithm for the large language model prompts, creating a new form of genetic programming. My research on this has demonstrated that Funsearch is able to learn various combinatorial and number-theoretic problems. Further to this, we presented a comprehensive codebase allowing for others to easily run funsearch themselves. On a related front, I used very similar methedology to create a new appropach to symbolic regression based on multimodel large language models and Kolmogorov–Arnold networks.
 
-**Symbolic Regression with Multimodal Large Language Models and Kolmogorov–Arnold Networks †**, <ins>Thomas R. Harvey</ins>, Fabian Ruehle, Cristofero S. Fraser-Taliente, James Halverson. [2025 preprint](https://arxiv.org/abs/2505.07956). [GitHub Repository](https://github.com/harveyThomas4692/llmlex).
+**Symbolic Regression with Multimodal Large Language Models and Kolmogorov–Arnold Networks †**, <ins>Thomas R. Harvey</ins>, Fabian Ruehle, Kit Fraser-Taliente, James Halverson. [2025 preprint](https://arxiv.org/abs/2505.07956). [GitHub Repository](https://github.com/harveyThomas4692/llmlex).
 
-**Generative Modelling for Mathematical Discovery**, Jordan S. Ellenberg, Cristofero S. Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Karan Srivastava, Andrew V. Sutherland. [2025 preprint](https://arxiv.org/abs/2503.11061). [GitHub Repository](https://github.com/kitft/funsearch).
+**Generative Modelling for Mathematical Discovery**, Jordan S. Ellenberg, Kit Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Karan Srivastava, Andrew V. Sutherland. [2025 preprint](https://arxiv.org/abs/2503.11061). [GitHub Repository](https://github.com/kitft/funsearch).
 
 ## Numerical Geometry with Neural Networks
 Compact Calabi-Yau manifolds are of great importance to string theorists and mathematicians. They serve as the building blocks for many supersymmetric string compactifications. Despite being studied for half a decade, and many examples being known to exist (see Enumerating Calabi-Yau Manifolds below), there are no closed analytic expressions for the Ricci-flat metrics on these spaces for D>4. However, recent progress has been made in finding numerical approximations to the Ricci-flat metrics, where the metric is represented by the neural network. These are sometimes called Physics-informed neural networks or PINNs for short.
 
 Access to the metric has allowed for the calculation of previously inaccessible data. For example, the masses and mixings of particles in the resulting 4D physics[^1] - a crucial component for the phenomenology of string theory. These have also allowed one to check a number of the assumptions made in string compactifications, in particular if the α' expansion is really under control in when the volume of the compact space is large. I've contributed to both of these problems in the papers and repositories below.
 
-**Not so flat metrics**, Cristofero S. Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Manki Kim. [2024 preprint](https://arxiv.org/abs/2411.00962). [GitHub Repository](https://github.com/kitft/cymetricap).
+**Not so flat metrics**, Kit Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Manki Kim. [2024 preprint](https://arxiv.org/abs/2411.00962). [GitHub Repository](https://github.com/kitft/cymetricap).
 
-**Computation of quark masses from string theory**, Andrei Constantin, Cristofero S. Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Andre Lukas, Burt Ovrut. Published in: Nucl.Phys.B 1010 (2025) 116778. [2024 preprint](https://arxiv.org/abs/2402.01615). [GitHub Repository](https://github.com/kitft/heteroticyukawas).
+**Computation of quark masses from string theory**, Andrei Constantin, Kit Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Andre Lukas, Burt Ovrut. Published in: Nucl.Phys.B 1010 (2025) 116778. [2024 preprint](https://arxiv.org/abs/2402.01615). [GitHub Repository](https://github.com/kitft/heteroticyukawas).
 
 Although it wasn't used in any of the above publications, I have written [my own code](https://github.com/harveyThomas4692/jax_metric_CalabiYau) for finding these Ricci-flat metrics. The method is equivalent to the phi-model introduced in [cymetric](https://github.com/pythoncymetric/cymetric) but with projective neural networks that automatically satisfy the transition loss criteria. This was written mostly for my own amusement, as I wanted something, unlike the alternatives, in a functional programming paradigm. My hope being that this would maximise clarity, over speed, for someone who is more familiar with the mathematics than the computational methods. As such, I've used this when introducing mathematicians and physicists to numerical geometry. For research purposes, I suggest using either [cymetric](https://github.com/pythoncymetric/cymetric) or [cymyc](https://github.com/Justin-Tan/cymyc) which are both more generic.
 
@@ -50,7 +50,7 @@ In order to tie in with an existing Mathematica codebase for string theory calcu
 - [GA in C](https://github.com/harveyThomas4692/GA-C)
 
 **Fermion Masses and Mixing in String-Inspired Models**
-Andrei Constantin, Cristofero S. Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Lucas T.Y. Leung, Andre Lukas. [2024 preprint](https://arxiv.org/abs/2410.17704). [GitHub Respository](https://github.com/LucasLeung149/stringFNmodels)
+Andrei Constantin, Kit Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Lucas T.Y. Leung, Andre Lukas. [2024 preprint](https://arxiv.org/abs/2410.17704). [GitHub Respository](https://github.com/LucasLeung149/stringFNmodels)
 
 **Decoding Nature with Nature's Tools: Heterotic Line Bundle Models of Particle Physics with Genetic Algorithms and Quantum Annealing**, Steve A. Abel, Andrei Constantin, <ins>Thomas R. Harvey</ins>, Andre Lukas, Luca A. Nutricati. Fortsch.Phys. 72 (2024) 2, 2300260. [2023 preprint](https://arxiv.org/abs/2306.03147). [GitHub Repository](https://github.com/harveyThomas4692/GA-LineBundles).
 
@@ -67,7 +67,7 @@ String theory is not the only area of high energy theory that has large landscap
 **Quark Mass Models and Reinforcement Learning** <ins>Thomas R. Harvey</ins>, Andre Lukas. JHEP 08 (2021) 161. [2021 preprint](https://arxiv.org/abs/2103.04759).
 
 ## Other Work
-**Enumerating Calabi-Yau Manifolds: Placing Bounds on the Number of Diffeomorphism Classes in the Kreuzer-Skarke List** Aditi Chandra, Andrei Constantin, Cristofero S. Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Andre Lukas. Fortsch.Phys. 72 (2024) 5, 2300264. [2023 preprint](https://arxiv.org/abs/2310.05909)
+**Enumerating Calabi-Yau Manifolds: Placing Bounds on the Number of Diffeomorphism Classes in the Kreuzer-Skarke List** Aditi Chandra, Andrei Constantin, Kit Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Andre Lukas. Fortsch.Phys. 72 (2024) 5, 2300264. [2023 preprint](https://arxiv.org/abs/2310.05909)
 
 **Spatially homogeneous universes with late-time anisotropy**, Andrei Constantin, <ins>Thomas R. Harvey</ins>, Sebastian von Hausegger, Andre Lukas. Class.Quant.Grav. 40 (2023) 24, 245015. [2023 preprint](https://arxiv.org/abs/2212.03234)
 
