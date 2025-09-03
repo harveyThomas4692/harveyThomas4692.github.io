@@ -13,8 +13,13 @@ Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and F
 
 **Unless indicated with a † all papers are listed with authors in alphabetical order. This is the standard convention in high energy theory and pure mathematics.**
 
+## Neural Network Optimisation
+Training neural networks is central to deep learning, and the choice of optimiser is often critical for success. Many standard methods (such as Adam) can be viewed as imposing a particular metric on the parameter space. My recent work explores new optimisers that take this perspective literally, using the induced metric of the loss landscape as a guide for training.
+
+**The Optimiser Hidden in Plain Sight: Training with the Loss Landscape's Induced Metric**, <ins>Thomas R. Harvey</ins>. 2025 preprint To Appear. [GitHub Repository](https://github.com/harveyThomas4692/Induced-Metric-Optimiser).
+
 ## Large Language Models for Mathematics
-Large language models have proven to be surprisingly effective coders. Funsearch makes use of this by incorporating a genetic algorithm for the large language model prompts, creating a new form of genetic programming. My research on this has demonstrated that Funsearch is able to learn various combinatorial and number-theoretic problems. Further to this, we presented a comprehensive codebase allowing for others to easily run funsearch themselves. On a related front, I used very similar methedology to create a new appropach to symbolic regression based on multimodel large language models and Kolmogorov–Arnold networks.
+Large language models have proven to be surprisingly effective coders. Funsearch makes use of this by incorporating a genetic algorithm for the large language model prompts, creating a new form of genetic programming. My research on this has demonstrated that Funsearch is able to learn various combinatorial and number-theoretic problems. Further to this, we presented a comprehensive codebase allowing for others to easily run funsearch themselves. On a related front, I used very similar methodology to create a new approach to symbolic regression based on multimodel large language models and Kolmogorov–Arnold networks.
 
 **Symbolic Regression with Multimodal Large Language Models and Kolmogorov–Arnold Networks †**, <ins>Thomas R. Harvey</ins>, Fabian Ruehle, Kit Fraser-Taliente, James Halverson. [2025 preprint](https://arxiv.org/abs/2505.07956). [GitHub Repository](https://github.com/harveyThomas4692/llmlex).
 
