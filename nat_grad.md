@@ -73,7 +73,7 @@ $$\frac{d f_t(x)}{dt} = - \frac{\delta \mathscr L [f]}{\delta f_t(x)} \Rightarro
 
 where $g^{ij}$ is the inverse of the induced metric. The NTK, however, is the opposite approach, we gradient descent on parameters, and look for the metric on functions that this corresponds to. In equations this is
 
-$$\frac{d\theta(t)}{dt} = -\frac{\partial\mathscr L(\theta(t))}{\partial \theta^i(t)}\Rightarrow \frac{d f_t(x)}{dt} = - G^{-1}\left(\cdot\,, \frac{\delta \mathscr L [f]}{\delta f_t(x)}\right),$$
+$$\frac{d\theta^i(t)}{dt} = -\frac{\partial\mathscr L(\theta(t))}{\partial \theta^i(t)}\Rightarrow \frac{d f_t(x)}{dt} = - G^{-1}\left(\cdot\,, \frac{\delta \mathscr L [f]}{\delta f_t(x)}\right),$$
 
 where $G^{-1}$ is the NTK. As such it should not come as a surprise that $g^{ij}$ has similarities to an "inverse NTK".
 
