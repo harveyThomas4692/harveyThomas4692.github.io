@@ -1,1 +1,1 @@
-# Some comments and discussion on natural gradient methods
+# Some Comments and Discussion on Natural Gradient Methods
