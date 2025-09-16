@@ -43,6 +43,9 @@ $$g_{ij} = E_x\left(\frac{\partial f_\theta(x)}{\partial \theta^i}\frac{\partial
 we see that we have the same metric proposed in the natural gradient literature. We could have played the same game with probability distributions, but we can't begining with a different definition of distance (the $L_2$ distance is not well defined for two probability distributions). We instead start with the Jensen-Shannon Divergence (which is a symmetrised form of the Kullback–Leibler divergence). On pulling back you once again find the same metric propeosed in the natural gradient literature.
 
 ## Why is this metric a good idea?
+So far I have presented a metric on the space of paramters, but haven't explained why this is a good metric to train with. Let's say that we can actually realise an arbitary function, in other words we go to the infinite paramter limit. In this case, we really can impose functional gradient descent. That is:
+
+$$\frac{df_t(x)}{dt} = -\frac{\delta L[f_t]}{\delta f_t(x)}.$$
 
 ## Comparison to the Neural Tangent Kernel (NTK)
 
