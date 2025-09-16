@@ -62,7 +62,7 @@ In the above section what we essentially did is say: _We want functional gradien
 
 $$g_{ij} = \left(\int d\mu(x) \frac{\partial f_\theta(x)}{\partial \theta^i}\frac{\partial f_\theta(x)}{\partial \theta^j}\right) = \delta_{ij}.$$
 
-This would imply that the set of functions $f_i(x) = \frac{\partial f_\theta(x)}{\partial \theta^i}$ are orthonormal to each other! While it isn't true that a set of orthonormal basis functions exist on any manifold, one sufficent condition is that the manifold is compact. Clearly, for any finite amount data, there exists many possible smooth data-manifolds that it could come from, some of which must also be compact. This means that $the natural gradient metric reduces to the identity when we parameterise the function by orthonormal basis functions on the data-manifold$!
+This would imply that the set of functions $f_i(x) = \frac{\partial f_\theta(x)}{\partial \theta^i}$ are orthonormal to each other! While it isn't true that a set of orthonormal basis functions exist on any manifold, one sufficent condition is that the manifold is compact. Clearly, for any finite amount data, there exists many possible smooth data-manifolds that it could come from, some of which must also be compact. This means that _the natural gradient metric reduces to the identity when we parameterise the function by orthonormal basis functions on the data-manifold_!
 
 ...
 
