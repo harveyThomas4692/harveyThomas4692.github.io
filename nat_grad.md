@@ -5,7 +5,18 @@ In that preprint, I note that the metric I chose is, from a geometric perspectiv
 
 I decided to write this blog post to present natural gradient methods as I understand them, with the aim of helping me remember my thoughts and hopefully providing value to others. I suspect this may be particularly useful for people with theoretical physics backgrounds who have found introductions to this subject, typically presented through information geometry, difficult to follow. I should emphasise that I am far from an expert, but I believe this represents a somewhat different perspective from how the actual experts in this area typically present the topic. I just found myself writing down the same objects (specifically the FIM - more on that later), through my own explorations and also derived some some interesting properties about it. Since I don't think anything I'm presenting here is fundamentally new, it didn't seem appropriate to write this as a formal paper—hence my decision to present it as a blog post.
 
-**TLDR:** Natural gradient methods propose the use of a very specific metric as a preconditioner for your gradients. In particular, given our gradient flow equation as:
+From the start I should say that I will be writing the equations as gradient flow:
+
+$$\frac{d\theta^i}{dt} = -\frac{\partial L(\theta)}{\partial \theta^i},$$
+
+as abosed to gradient descent:
+
+$$\delta\theta^i = -\eta\frac{\partial L(\theta)}{\partial \theta^i}.$$
+
+Gradient descent can be considered as the linearised appropximation to gradient flow, where the learning ratre $\eta = \delta t$ is the finite time step.
+
+## Natural Gradient Methods
+Natural gradient methods propose the use of a very specific metric as a preconditioner for your gradients. It's claimed in the literature that this is the optimal choice of metric on paramters for gradient flow/descent. In particular, given our gradient flow equation as:
 
 $$\frac{d\theta^i}{dt} = - \sum_j g^{ij}\frac{\partial L_\theta(f_\theta(x))}{\partial \theta^j}.$$
 
@@ -36,7 +47,7 @@ We restrict ourselves to our function class, be that a neural network architectu
 
 $$ \hat g = \sum_{i,j} g_{ij} d\theta^i d\theta^j = \sum_{i,j}\left(\int d\mu(x) \frac{\partial f_\theta(x)}{\partial \theta^i}\frac{\partial f_\theta(x)}{\partial \theta^j}\right)d\theta^i d\theta^j.$$
 
-Rewriting the term in brackets as an expectation over the data:
+We will refer to this metric as the natural gradient metric from now. Rewriting the term in brackets as an expectation over the data:
 
 $$g_{ij} = E_x\left(\frac{\partial f_\theta(x)}{\partial \theta^i}\frac{\partial f_\theta(x)}{\partial \theta^j}\right),$$
 
@@ -47,10 +58,29 @@ So far I have presented a metric on the space of paramters, but haven't explaine
 
 $$\frac{df_t(x)}{dt} = -\frac{\delta L[f_t]}{\delta f_t(x)}.$$
 
+In the above section what we essentially did is say: _We want functional gradient flow, what does this induce on the space of paramters?_ This sounds theoretically elegent, but is it a good idea? To answer this, we first consider when it's possible for the natural gradient metric to reduce to the identity
+
+$$g_{ij} = \left(\int d\mu(x) \frac{\partial f_\theta(x)}{\partial \theta^i}\frac{\partial f_\theta(x)}{\partial \theta^j}\right) = \delta_{ij}.$$
+
+This would imply that the set of functions $f_i(x) = \frac{\partial f_\theta(x)}{\partial \theta^i}$ are orthonormal to each other! While it isn't true that a set of orthonormal basis functions exist on any manifold, one sufficent condition is that the manifold is compact. Clearly, for any finite amount data, there exists many possible smooth data-manifolds that it could come from, some of which must also be compact. This means that $the natural gradient metric reduces to the identity when we parameterise the function by orthonormal basis functions on the data-manifold$!
+
+...
+
 ## Comparison to the Neural Tangent Kernel (NTK)
+The natural gradient metric looks like a trace over the NTK (Neural Tangent Kernel). However, there are important conceptual differences. In a sense, we derived this equation from the opposite perspective. We stated we wanted functional gradient descent, and went looking for the metric on parameters that is induced from this:
+
+$$\frac{d f_t(x)}{dt} = - \frac{\delta \mathscr L [f]}{\delta f_t(x)} \Rightarrow  \frac{df_{\theta(t)}(x)}{dt} = -g^{ij}\frac{\partial\mathscr L(\theta(t))}{\partial \theta^j(t)},$$
+
+where $g^{ij}$ is the inverse of the induced metric. The NTK, however, is the opposite approach, we gradient descent on parameters, and look for the metric on functions that this corresponds to. In equations this is
+
+$$\frac{df_{\theta(t)}(x)}{dt} = -\frac{\partial\mathscr L(\theta(t))}{\partial \theta^i(t)}\Rightarrow \frac{d f_t(x)}{dt} = - G^{-1}\left(\cdot\,, \frac{\delta \mathscr L [f]}{\delta f_t(x)}\right),$$
+
+where $G^{-1}$ is the NTK. As such it should not come as a surprise that $g^{ij}$ has similarities to an "inverse NTK".
 
 ## Is this practical?
 In short: very much no...
+
+...
 
 [^1]: The citations were to the seminal paper S. Amari, “Natural gradient works efficiently in learning,”  and a recent review R. Shrestha, “Natural gradient methods: Perspectives, efficient-scalable
 approximations, and analysis,”.
