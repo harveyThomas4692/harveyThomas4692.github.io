@@ -8,6 +8,8 @@ Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and F
 # Blog Posts
 I recently decided to add this section to my website, as I occasionally find myself working on or thinking about topics that, for various reasons, are not always appropriate for formal publication, but which I would still like to share with the broader community. My website seemed like the natural place for these less formal discussions.
 
+$$x=y$$
+
 [Some Comments and Discussion on Natural Gradient Methods](nat_grad.md) - 17th Sept 2025
 
 # Research
