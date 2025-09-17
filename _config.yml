@@ -1,0 +1,18 @@
+# Jekyll configuration for GitHub Pages with MathJax support
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+# Theme configuration (using the default GitHub Pages theme)
+theme: minima
+
+# GitHub Pages settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Site settings
+title: "Thomas Harvey"
+description: "Research at the intersection of machine learning, theoretical physics and mathematics"
+url: "https://harveyThomas4692.github.io"
