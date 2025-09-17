@@ -133,5 +133,4 @@ In short: very much no...
 
 Calculating this metric requires integrating $N^2$ integrals over the data manifold, which scales as $O(DN^2)$—far from practical for deep learning. Furthermore, even if we were given the inverse natural gradient metric, we would still need to perform $N^2$ calculations to compute the update, since the metric is generically non-diagonal.
 
-Despite this, I remain hopeful that approximate versions of the natural gradient metric can be calculated. K-FAC is, in fact, one such approximation where $g^{ij}$
-gij is replaced with a low-rank approximation. I've been actively thinking in this direction and remain optimistic that methods may exist that offer benefits over Adam/AdamW.
+Despite this, I remain hopeful that approximate versions of the natural gradient metric can be calculated. K-FAC is, in fact, one such approximation where $g^{ij}$ is replaced with a low-rank approximation. I've been actively thinking in this direction and remain optimistic that methods may exist that offer benefits over Adam/AdamW.
