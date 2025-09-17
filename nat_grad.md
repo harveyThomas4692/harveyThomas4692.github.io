@@ -33,8 +33,7 @@ $$\delta\theta^i = -\eta\frac{\partial L(\theta)}{\partial \theta^i}.$$
 
 Gradient descent can be considered as the linearised approximation to gradient flow, where the learning rate $\eta = \delta t$ is the finite time step. This will also allow us to exactly solve some of the equations.
 
-[^1]: The citations were to the seminal paper S. Amari, “Natural gradient works efficiently in learning,”  and a recent review R. Shrestha, “Natural gradient methods: Perspectives, efficient-scalable
-approximations, and analysis,”.
+[^1]: The citations were to the seminal paper S. Amari, “Natural gradient works efficiently in learning,”  and a recent review R. Shrestha, “Natural gradient methods: Perspectives, efficient-scalable approximations, and analysis,”.
 
 ## Natural Gradient Methods
 Natural gradient methods propose the use of a very specific metric as a preconditioner for your gradients. It's claimed in the literature that this is the optimal choice of metric on parameters for gradient flow/descent. In particular, given our gradient flow equation as:
