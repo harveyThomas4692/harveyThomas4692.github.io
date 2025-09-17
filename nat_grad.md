@@ -97,6 +97,8 @@ $$L(\alpha(t)) \propto e^{-4t}.$$
 
 So **when we train with the natural gradient metric, we should reach the optimal solution exponentially quickly**. This is clearly in stark contrast to the observed power law scaling laws observed when training neural networks with the flat metric.[^2]
 
+Following this exact calculation with probability distributions seems much more difficult. There isn't really an equivalent to an orthonormal basis of functions in which you can expand a probability distribution. However, given you regularise your probability distributions to not be exactly zero or one anywhere, you can make an analogous argument using the logits.
+
 [^2]: I should say that, strictly speaking, Adam isn't the flat metric, but it certainly is closer to the flat metric than the natural gradient metric.
 
 
