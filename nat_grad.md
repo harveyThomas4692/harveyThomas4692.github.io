@@ -38,7 +38,7 @@ Gradient descent can be considered as the linearised approximation to gradient f
 ## Natural Gradient Methods
 Natural gradient methods propose the use of a very specific metric as a preconditioner for your gradients. It's claimed in the literature that this is the optimal choice of metric on parameters for gradient flow/descent. In particular, given our gradient flow equation as:
 
-$$\frac{d\theta^i}{dt} = - \sum_j g^{ij}\frac{\partial L_\theta(f_\theta(x))}{\partial \theta^j}.$$
+$$\frac{d\theta^i}{dt} = - \sum_j g^{ij}\frac{\partial L(\theta)}{\partial \theta^j}.$$
 
 Specifically, if we are optimising a function $f_\theta(x)$, parametrised by $\\\{\theta^i, i=1\ldots N\\\}$, then we should use:
 
@@ -53,7 +53,7 @@ In this second case, $g_{ij}$ is referred to as the Fisher Information Matrix (o
 ## Where does this metric come from?
 When beginning to work on the paper I mentioned at the start, I actually began with the question: is there a **natural metric** on the space of parameters for a parametrised function? In the end, I didn't address that question in that paper, but instead asked whether there were any **useful metrics** on this space and the proposed one based on the common visualisations of loss landscapes. However, I did make some headway into the first question, which is where I rediscovered some results from natural gradient methods.
 
-I tried to answer this question by first defining a metric on the more abstract space of functions, and then pulling back that metric to the sub-manifold defined by restricting to those parametrised functions. Given two functions $f(x)$ and $g(x)$, we can define a square-distance between them by integrating their difference squared (i.e. the $L_2$ distance):
+I tried to answer this question by first defining a metric on the more abstract space of functions, and then pulling back that metric to the sub-manifold defined by restricting to those parametrised functions. **This submanifold is the loss-landscape.** Given two functions $f(x)$ and $g(x)$, we can define a square-distance between them by integrating their difference squared (i.e. the $L_2$ distance):
 
 $$d^2_{L_2}[f,g] = \int d\mu(x) (f(x) - g(x))^2,$$
 
@@ -88,7 +88,7 @@ This would imply that the set of functions
 
 $$f_i(x) = \frac{\partial f_\theta(x)}{\partial \theta^i}$$
 
-are orthonormal to each other. This means that **the natural gradient metric reduces to the identity when we parameterise the function by orthonormal basis functions on the data manifold!** Whilst it isn't true that a set of orthonormal basis functions exist on any manifold, one sufficient condition is that the manifold is compact. Clearly, for any finite amount of data, there exist many possible smooth data manifolds that it could come from, some of which must also be compact. Therefore, it appears reasonable to assume such a set of functions exist, even if they are hard to compute in practice. As there exists a choice of coordinates such that the metric becomes the Euclidean metric everywhere, **the natural gradient metric is actually a flat metric on the data manifold**. We were previously writing that metric in awkward coordinates.
+are orthonormal to each other. This means that **the natural gradient metric reduces to the identity when we parameterise the function by orthonormal basis functions on the data manifold!** Whilst it isn't true that a set of orthonormal basis functions exist on any manifold, one sufficient condition is that the manifold is compact. Clearly, for any finite amount of data, there exist many possible smooth data manifolds that it could come from, some of which must also be compact. Therefore, it appears reasonable to assume such a set of functions exist, even if they are hard to compute in practice. As there exists a choice of coordinates such that the metric becomes the Euclidean metric everywhere, **the natural gradient metric is actually a flat metric on the loss landscape**. We were previously writing that metric in awkward coordinates.
 
 Let's then proceed with, at least formally, parametrising our function in this way and write
 
