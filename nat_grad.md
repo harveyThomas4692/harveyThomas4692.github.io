@@ -114,9 +114,9 @@ So **when we train with the natural gradient metric, we should reach the optimal
 
 Following this exact calculation with probability distributions seems much more difficult. There isn't really an equivalent to an orthonormal basis of functions in which you can expand a probability distribution. However, given you regularise your probability distributions to not be exactly zero or one anywhere, you can make an analogous argument using the logits.
 
-[^2] There is a slight subtlety here regarding inevitability of $\alpha^i(\theta)$, which we acknowledge but ignore. Though we do assume that we've quotiented out degeneracies in the parameters of neural networks (such as a rotation of the keys and inverse rotation of the queries in the attention mechanism).
+[^2]: There is a slight subtlety here regarding inevitability of $\alpha^i(\theta)$, which we acknowledge but ignore. Though we do assume that we've quotiented out degeneracies in the parameters of neural networks (such as a rotation of the keys and inverse rotation of the queries in the attention mechanism).
 
-[^3] I should say that, strictly speaking, Adam isn't the flat metric, but it certainly is closer to the flat metric than the natural gradient metric.
+[^3]: I should say that, strictly speaking, Adam isn't the flat metric, but it certainly is closer to the flat metric than the natural gradient metric.
 
 
 ## Comparison to the Neural Tangent Kernel (NTK)
