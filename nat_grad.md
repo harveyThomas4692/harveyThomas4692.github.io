@@ -59,7 +59,7 @@ $$d^2_{L_2}[f,g] = \int d\mu(x) (f(x) - g(x))^2,$$
 
 where $d\mu(x)$ is **the measure induced by the data**. Intuitively, one should think of this as an integral over the data manifold. Now, if we consider the distance between $f(x)$ and $f(x) + \delta f(x)$, where $\delta f(x)$ is some small function variation, we can define a line element on this space of functions, given by:
 
-$$|d f|^2 = d_{L_2}[f,f + \delta f] = \int d\mu(x) (\delta f(x))^2.$$
+$$|d f|^2 = d^2_{L_2}[f,f + \delta f] = \int d\mu(x) (\delta f(x))^2.$$
 
 We restrict ourselves to our function class, be that a neural network architecture or something else, and in the process induce a metric on the space of parameters:
 
