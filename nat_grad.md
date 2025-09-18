@@ -116,7 +116,7 @@ Following this exact calculation with probability distributions seems much more 
 
 [^2]: There is a slight subtlety here regarding inevitability of $\alpha^i(\theta)$, which we acknowledge but ignore. Though we do assume that we've quotiented out degeneracies in the parameters of neural networks (such as a rotation of the keys and inverse rotation of the queries in the attention mechanism).
 
-[^3]: I should say that, strictly speaking, Adam isn't the flat metric, but it certainly is closer to the flat metric than the natural gradient metric.
+[^3]: I should say that, strictly speaking, modern neural networks are usually trained with Adam/AdamW, which is actually a metric that changes during training. However, at each time step, it is still a flat metric on the loss landscape.
 
 
 ## Comparison to the Neural Tangent Kernel (NTK)
