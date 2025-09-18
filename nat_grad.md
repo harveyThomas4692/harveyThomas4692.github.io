@@ -114,7 +114,7 @@ So **when we train with the natural gradient metric, we should reach the optimal
 
 Following this exact calculation with probability distributions seems much more difficult. There isn't really an equivalent to an orthonormal basis of functions in which you can expand a probability distribution. However, given you regularise your probability distributions to not be exactly zero or one anywhere, you can make an analogous argument using the logits.
 
-[^2]: There is a slight subtlety here regarding inevitability of $\alpha^i(\theta)$, which we acknowledge but ignore. Though we do assume that we've quotiented out degeneracies in the parameters of neural networks (such as a rotation of the keys and inverse rotation of the queries in the attention mechanism).
+[^2]: There is a slight subtlety here regarding invertibility of $\alpha^i(\theta)$, which we acknowledge but ignore. If we had included this, some of the equalities would be only approximately equal signs, as the space of functions that can be expressed by $\alpha$ and $\theta$ will differ. This is less crucial in the limit of a large number of parameters. Though we do assume that we've quotiented out degeneracies in the parameters of neural networks (such as a rotation of the keys and inverse rotation of the queries in the attention mechanism). 
 
 [^3]: I should say that, strictly speaking, modern neural networks are usually trained with Adam/AdamW, which is actually a metric that changes during training. However, at each time step, it is still a flat metric on the loss landscape.
 
