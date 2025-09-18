@@ -94,7 +94,7 @@ Let's then proceed with, at least formally, parametrising our function in this w
 
 $$f_\alpha(x) = \sum_i \alpha^i(\theta) f_i(x),$$
 
-where we have written $\alpha$ as a function of our original parametrisation $\theta$[^2]. This really is just a reparametrisation—i.e., a change of coordinates on the data manifold. Gradient flow with $\alpha$, using the Euclidean metric, is mathematically the same as gradient flow with $\theta$ using the natural gradient metric. Given this, let's say we are running gradient descent on a regression problem, with target function:
+where we have written $\alpha$ as a function of our original parametrisation $\theta$[^2]. This really is just a reparametrisation—i.e., a change of coordinates on the loss landscape. Gradient flow with $\alpha$, using the Euclidean metric, is mathematically the same as gradient flow with $\theta$ using the natural gradient metric. Given this, let's say we are running gradient descent on a regression problem, with target function:
 
 $$g(x) = \sum_i \beta^i f_i(x),$$
 
