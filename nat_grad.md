@@ -122,7 +122,7 @@ Following this exact calculation with probability distributions seems much more 
 ## Comparison to the Neural Tangent Kernel (NTK)
 The natural gradient metric looks like a trace over the NTK. However, there are important conceptual differences. In a sense, we derived this equation from the opposite perspective. We stated we wanted functional gradient descent, and went looking for the metric on parameters that is induced from this:
 
-$$\frac{d f_t(x)}{dt} = - \frac{\delta \mathscr L [f]}{\delta f_t(x)} \Rightarrow  \frac{d\theta(t)}{dt} = -g^{ij}\frac{\partial\mathscr L(\theta(t))}{\partial \theta^j(t)},$$
+$$\frac{d f_t(x)}{dt} = - \frac{\delta \mathscr L [f]}{\delta f_t(x)} \Rightarrow  \frac{d\theta(t)}{dt} = -\sum_j g^{ij}\frac{\partial\mathscr L(\theta(t))}{\partial \theta^j(t)},$$
 
 where $g^{ij}$ is the inverse of the induced metric. The NTK, however, is the opposite approach, we gradient descent on parameters, and look for the metric on functions that this corresponds to. In equations this is
 
