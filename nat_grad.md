@@ -46,7 +46,7 @@ $$g_{ij} = E_x\left(\frac{\partial f_\theta(x)}{\partial \theta^i}\frac{\partial
 
 where $g_{ij}$ is the inverse of $g^{ij}$, and $E$ indicates expectation over the data $\\\{x^\alpha,\alpha=1...D\\\}$. Similarly, when we have a probability distribution $\rho_\theta$, we should then use:
 
-$$g_{ij} = E_x\left(\frac{\partial\log \rho_\theta(x)}{\partial \theta^i}\frac{\partial\log \rho_\theta(x)}{\partial \theta^j}\right).$$
+$$g_{ij} = E_{\rho(x)}\left(\frac{\partial\log \rho_\theta(x)}{\partial \theta^i}\frac{\partial\log \rho_\theta(x)}{\partial \theta^j}\right).$$
 
 In this second case, $g_{ij}$ is referred to as the Fisher Information Matrix (or FIM for short). From now on I'll focus on the case of functions, mostly because it's simpler, however I will occasionally comment on the probability distribution case.
 
