@@ -29,7 +29,7 @@ Large language models have proven to be surprisingly effective coders. Funsearch
 
 **Symbolic Regression with Multimodal Large Language Models and Kolmogorov–Arnold Networks †**, <ins>Thomas R. Harvey</ins>, Fabian Ruehle, Kit Fraser-Taliente, James Halverson. [2025 preprint](https://arxiv.org/abs/2505.07956). [GitHub Repository](https://github.com/harveyThomas4692/llmlex).
 
-**Generative Modelling for Mathematical Discovery**, Jordan S. Ellenberg, Kit Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Karan Srivastava, Andrew V. Sutherland. [2025 preprint](https://arxiv.org/abs/2503.11061). [GitHub Repository](https://github.com/kitft/funsearch).
+**Generative Modelling for Mathematical Discovery**, Jordan S. Ellenberg, Kit Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Karan Srivastava, Andrew V. Sutherland. Advances in Theoretical and Mathematical Physics: proceedings of the CMSA Mathematics and Machine Learning Program 2025. [2025 preprint](https://arxiv.org/abs/2503.11061). [GitHub Repository](https://github.com/kitft/funsearch).
 
 ## Numerical Geometry with Neural Networks
 Compact Calabi-Yau manifolds are of great importance to string theorists and mathematicians. They serve as the building blocks for many supersymmetric string compactifications. Despite being studied for half a century, and many examples being known to exist (see Enumerating Calabi-Yau Manifolds below), there are no closed analytic expressions for the Ricci-flat metrics on these spaces for D>4. However, recent progress has been made in finding numerical approximations to the Ricci-flat metrics, where the metric is represented by the neural network. These are sometimes called Physics-informed neural networks or PINNs for short.
