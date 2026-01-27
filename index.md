@@ -99,10 +99,11 @@ Martin-Holloway Prize for graduating top of science faculty
 When at Cambridge I met Alessandro Roussel, who runs the popular science channel [ScienceClic](https://www.youtube.com/@ScienceClicEN), along with the [original French Channel](https://www.youtube.com/c/ScienceClic). I have been involved (and am still involved) in giving scientific advise for the channel. 
 
 Some of the most watched videos include I am credited for (views listed at time of writing):
-- 4.4M [String Theory](https://youtu.be/n7cOlBxtKSo?si=tTSxxldB1bXPRMoQ)
-- 2.3M [Quantum Field Theory Visualised](https://youtu.be/MmG2ah5Df4g?si=mFnxUnJmMgKlIco9)
-- 445K [M-Theory](https://youtu.be/plU31-qtZ78?si=2zIdoiSaThUk7RVf)
-- 444K [Supersymmetry, Explained Visually](https://youtu.be/0GUTJQCeKBE?si=mruhR-EgCX9h-k3l)
+- 4.7M [String Theory](https://youtu.be/n7cOlBxtKSo?si=tTSxxldB1bXPRMoQ)
+- 2.4M [Quantum Field Theory Visualised](https://youtu.be/MmG2ah5Df4g?si=mFnxUnJmMgKlIco9)
+- 516K [M-Theory](https://youtu.be/plU31-qtZ78?si=2zIdoiSaThUk7RVf)
+- 480K [Supersymmetry, Explained Visually](https://youtu.be/0GUTJQCeKBE?si=mruhR-EgCX9h-k3l)
+- 270k [The Physics of A.I.](https://youtu.be/dRkehLL19Wo?si=hdSWcdLfqiH_-3zz)
 
 # Links and Contact
 - [Email](mailto:trharvey@mit.edu)
