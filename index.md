@@ -11,6 +11,7 @@ I recently decided to add this section to my website, as I occasionally find mys
 [Some Comments and Discussion on Natural Gradient Methods](nat_grad.md) - 17th Sept 2025
 
 # Research
+- [AI Concepts for Physics](#ai-concepts-for-physics)
 - [Neural Network Optimisation](#neural-network-optimisation)
 - [Large Language Models for Mathematics](#large-language-models-for-mathematics)
 - [Numerical Geometry with Neural Networks](#numerical-geometry-with-neural-networks)
@@ -18,6 +19,9 @@ I recently decided to add this section to my website, as I occasionally find mys
 - [Other Work](#other-work)
 
 **Unless indicated with a † all papers are listed with authors in alphabetical order. This is the standard convention in high energy theory and pure mathematics.**
+
+## AI Concepts for Physics
+Coming soon :-)
 
 ## Neural Network Optimisation
 Training neural networks is central to deep learning, and the choice of optimiser is often critical for success. Many standard methods (such as Adam) can be viewed as imposing a particular metric on the parameter space. My recent work explores new optimisers that take this perspective literally, using the induced metric of the loss landscape as a guide for training.
