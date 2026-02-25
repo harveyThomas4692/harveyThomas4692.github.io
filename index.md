@@ -21,7 +21,7 @@ I recently decided to add this section to my website, as I occasionally find mys
 **Unless indicated with a † all papers are listed with authors in alphabetical order. This is the standard convention in high energy theory and pure mathematics.**
 
 ## AI Concepts for Physics
-Coming soon :-)
+I am exploring how conceptual and statistical frameworks from AI theory can provide new perspectives on foundational questions in theoretical physics. While there has been some work in this direction, this remains a relatively underexplored avenue. 
 
 ## Neural Network Optimisation
 Training neural networks is central to deep learning, and the choice of optimiser is often critical for success. Many standard methods (such as Adam) can be viewed as imposing a particular metric on the parameter space. My recent work explores new optimisers that take this perspective literally, using the induced metric of the loss landscape as a guide for training.
