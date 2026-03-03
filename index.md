@@ -23,8 +23,7 @@ I recently decided to add this section to my website, as I occasionally find mys
 ## AI Concepts for Physics
 I am exploring how conceptual and statistical frameworks from AI theory can provide new perspectives on foundational questions in theoretical physics. While there has been some work in this direction, this remains a relatively underexplored avenue. 
 
-**Naturalness and Fisher Information**, James Halverson <ins>Thomas R. Harvey</ins>, Michael Nee. 2026 preprint to appear soon.
-
+**Naturalness and Fisher Information**, James Halverson <ins>Thomas R. Harvey</ins>, Michael Nee. [2026 preprint](https://arxiv.org/abs/2603.01411)
 ## Neural Network Optimisation
 Training neural networks is central to deep learning, and the choice of optimiser is often critical for success. Many standard methods (such as Adam) can be viewed as imposing a particular metric on the parameter space. My recent work explores new optimisers that take this perspective literally, using the induced metric of the loss landscape as a guide for training.
 
