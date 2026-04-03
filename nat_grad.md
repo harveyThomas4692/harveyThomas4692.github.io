@@ -17,6 +17,8 @@ MathJax.Hub.Config({
 # Some Comments and Discussion on Natural Gradient Methods
 **Date: 17th of September 2025**
 
+**Update April 2026** Much of this has now been included in appendix A of my [2026 pre-print](https://arxiv.org/abs/2604.01279)
+
 I’ve been interested in optimisation methods for some time and, unsurprisingly considering my background, have a particular interest in the application of geometry to optimisation. For example, in my [recent pre-print](https://arxiv.org/abs/2509.03594), I propose using the metric commonly employed in visualisations of loss landscapes (known as the pull-back metric) as a preconditioner for gradients. This approach led to a slight performance improvement over Adam, with negligible increases in computational or memory costs.
 
 In that preprint, I note that the metric I chose is, from a geometric perspective, completely arbitrary. I specifically included the line:  “...different choices of metrics are, from a geometric rather than numerical perspective, somewhat arbitrary (except, perhaps, those used in natural gradient techniques [22,23])” [^1]. This naturally raises the question: what are natural gradient methods, and why are they less arbitrary?
