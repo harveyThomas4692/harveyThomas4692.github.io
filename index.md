@@ -27,7 +27,7 @@ I am exploring how conceptual and statistical frameworks from AI theory can prov
 ## Neural Network Optimisation
 Training neural networks is central to deep learning, and the choice of optimiser is often critical for success. Many standard methods (such as Adam) can be viewed as imposing a particular metric on the parameter space. My recent work explores new optimisers that take this perspective literally, using principled metrisc of the loss landscape as a guide for training.
 
-**Sven: Singular Value Descent as a Computationally Efficient Natural Gradient Method †**, Samuel Bright-Thonney*, <ins>Thomas R. Harvey</ins>*, Andre Lukas, Jesse Thaler. [2026 preprint](https://arxiv.org/abs/2604.01279). [GitHub Repository](https://github.com/sambt/sven-experiments/).
+**Sven: Singular Value Descent as a Computationally Efficient Natural Gradient Method †**, Samuel Bright-Thonney*, <ins>Thomas R. Harvey</ins>\*, Andre Lukas, Jesse Thaler. [2026 preprint](https://arxiv.org/abs/2604.01279). [GitHub Repository](https://github.com/sambt/sven-experiments/).
 
 *Equal contribution.
 
