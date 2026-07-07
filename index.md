@@ -1,6 +1,7 @@
 Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and Fundamental Interactions)](https://iaifi.org/) fellow at MIT. My research predominantly lies at the intersection of machine learning, theoretical physics and mathematics. See the research section further down for more details.
 - [Blog Posts](#blog-posts)
 - [Research](#research)
+- [Notes](#notes)
 - [Education](#education)
 - [Outreach](#outreach)
 - [Links and Contact](#links-and-contact)
@@ -90,6 +91,19 @@ String theory is not the only area of high energy theory that has large landscap
 **Enumerating Calabi-Yau Manifolds: Placing Bounds on the Number of Diffeomorphism Classes in the Kreuzer-Skarke List** Aditi Chandra, Andrei Constantin, Kit Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Andre Lukas. Fortsch.Phys. 72 (2024) 5, 2300264. [2023 preprint](https://arxiv.org/abs/2310.05909)
 
 **Spatially homogeneous universes with late-time anisotropy**, Andrei Constantin, <ins>Thomas R. Harvey</ins>, Sebastian von Hausegger, Andre Lukas. Class.Quant.Grav. 40 (2023) 24, 245015. [2023 preprint](https://arxiv.org/abs/2212.03234)
+
+# Notes
+**String Theory** - 2026
+
+In Mid 2026, I found myself with a free Claude Max subscription (thanks Sid!). While I have found this particularly useful for research, I decided to try something a bit different with Claude Code. Over the years, I have built up a large collection of notes on various topics in string theory. None of these notes are complete, and many are imprecise. I was curious whether Claude could turn these into a complete set of lecture notes for string theory. It took several days, but the result is the set of notes below. There is, perhaps unsurprisingly, a heavy weighting toward geometry and compactifications, as these notes are based on my own personal research interests. Claude also claims in the abstract that this can fit into a single graduate course over one semester; I think that is a little ambitious, but maybe others will disagree.
+
+A caveat before you dive in: I have not yet finished reading through the notes myself (especially the exercises and solutions), so nothing here should be treated as verified. Please do reach out if you find any typos or mistakes. I am particularly nervous about the citations, since language models are known to fabricate plausible-looking references.
+
+I should state something important up front: I love physics textbooks and have a significant collection. I do not want this to be viewed as in any way a replacement for the human effort that goes into writing such works, and the unique perspectives they often provide. The material in these notes is relatively standard; the only difference is the selection and emphasis of topics, tailored to my own tastes.
+
+[Notes](strings.pdf)
+
+Solutions to appear...
 
 # Education
 **University of Oxford (DPhil)** - Theoretical Physics (2020-2024)
