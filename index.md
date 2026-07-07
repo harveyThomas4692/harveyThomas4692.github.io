@@ -105,6 +105,8 @@ I should state something important up front: I love physics textbooks and have a
 
 [Notes](strings.pdf)
 
+[TeX Files](tex_string.zip)
+
 Solutions to appear...
 
 # Education
