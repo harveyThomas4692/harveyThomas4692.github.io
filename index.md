@@ -9,7 +9,7 @@ Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and F
 # Research
 - [AI Concepts for Physics](#ai-concepts-for-physics)
 - [Neural Network Optimisation](#neural-network-optimisation)
-- [Large Language Models for Mathematics](#large-language-models-for-mathematics)
+- [Large Language Models for Agentic Mathematics](#large-language-models-for-agentic-mathematics)
 - [Numerical Geometry with Neural Networks](#numerical-geometry-with-neural-networks)
 - [Discrete Optimisation for String Theory with Reinforcement Learning and Genetic Algorithms](#discrete-optimisation-for-string-theory-with-reinforcement-learning-and-genetic-algorithms)
 - [Other Work](#other-work)
@@ -29,7 +29,7 @@ Training neural networks is central to deep learning, and the choice of optimise
 
 **The Optimiser Hidden in Plain Sight: Training with the Loss Landscape's Induced Metric**, <ins>Thomas R. Harvey</ins>. [2025 preprint](https://arxiv.org/abs/2509.03594). [GitHub Repository](https://github.com/harveyThomas4692/Induced-Metric-Optimiser).
 
-## Large Language Models for Mathematics
+## Large Language Models for Agentic Mathematics
 Large language models have proven to be surprisingly effective coders. Funsearch makes use of this by incorporating a genetic algorithm for the large language model prompts, creating a new form of genetic programming. My research on this has demonstrated that Funsearch is able to learn various combinatorial and number-theoretic problems. Further to this, we presented a comprehensive codebase allowing for others to easily run funsearch themselves. On a related front, I used very similar methodology to create a new approach to symbolic regression based on multimodel large language models and Kolmogorov–Arnold networks.
 
 **Symbolic Regression with Multimodal Large Language Models and Kolmogorov–Arnold Networks †**, <ins>Thomas R. Harvey</ins>, Fabian Ruehle, Kit Fraser-Taliente, James Halverson. [2025 preprint](https://arxiv.org/abs/2505.07956). [GitHub Repository](https://github.com/harveyThomas4692/llmlex).
