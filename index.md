@@ -8,9 +8,9 @@ Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and F
 
 # Research
 - [AI Concepts for Physics](#ai-concepts-for-physics)
-- [Neural Network Optimisation](#neural-network-optimisation)
 - [Large Language Models for Agentic Mathematics](#large-language-models-for-agentic-mathematics)
 - [Numerical Geometry with Neural Networks](#numerical-geometry-with-neural-networks)
+- [Neural Network Optimisation](#neural-network-optimisation)
 - [Discrete Optimisation for String Theory with Reinforcement Learning and Genetic Algorithms](#discrete-optimisation-for-string-theory-with-reinforcement-learning-and-genetic-algorithms)
 - [Other Work](#other-work)
 
@@ -20,19 +20,11 @@ Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and F
 I am exploring how conceptual and statistical frameworks from AI theory can provide new perspectives on foundational questions in theoretical physics. While there has been some work in this direction, this remains a relatively underexplored avenue. 
 
 **Naturalness and Fisher Information**, James Halverson <ins>Thomas R. Harvey</ins>, Michael Nee. [2026 preprint](https://arxiv.org/abs/2603.01411).
-## Neural Network Optimisation
-Training neural networks is central to deep learning, and the choice of optimiser is often critical for success. Many standard methods (such as Adam) can be viewed as imposing a particular metric on the parameter space. My recent work explores new optimisers that take this perspective literally, using principled metrics on the loss landscape as a guide for training.
-
-**Sven: Singular Value Descent as a Computationally Efficient Natural Gradient Method †**, Samuel Bright-Thonney*, <ins>Thomas R. Harvey</ins>\*, Andre Lukas, Jesse Thaler. [2026 preprint](https://arxiv.org/abs/2604.01279). [GitHub Repository](https://github.com/sambt/sven-experiments/).
-
-*Equal contribution.
-
-**The Optimiser Hidden in Plain Sight: Training with the Loss Landscape's Induced Metric**, <ins>Thomas R. Harvey</ins>. [2025 preprint](https://arxiv.org/abs/2509.03594). [GitHub Repository](https://github.com/harveyThomas4692/Induced-Metric-Optimiser).
 
 ## Large Language Models for Agentic Mathematics
 Large language models have proven to be surprisingly effective coders. Funsearch makes use of this by incorporating a genetic algorithm for the large language model prompts, creating a new form of genetic programming. My research on this has demonstrated that Funsearch is able to learn various combinatorial and number-theoretic problems. Further to this, we presented a comprehensive codebase allowing for others to easily run funsearch themselves. On a related front, I used very similar methodology to create a new approach to symbolic regression based on multimodel large language models and Kolmogorov–Arnold networks.
 
-**Symbolic Regression with Multimodal Large Language Models and Kolmogorov–Arnold Networks †**, <ins>Thomas R. Harvey</ins>, Fabian Ruehle, Kit Fraser-Taliente, James Halverson. [2025 preprint](https://arxiv.org/abs/2505.07956). [GitHub Repository](https://github.com/harveyThomas4692/llmlex).
+**Symbolic Regression with Multimodal Large Language Models and Kolmogorov–Arnold Networks †**, <ins>Thomas R. Harvey</ins>, Fabian Ruehle, Kit Fraser-Taliente, James Halverson. Published in: MLST (2026). [2025 preprint](https://arxiv.org/abs/2505.07956). [GitHub Repository](https://github.com/harveyThomas4692/llmlex).
 
 **Generative Modelling for Mathematical Discovery**, Jordan S. Ellenberg, Kit Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Karan Srivastava, Andrew V. Sutherland. Advances in Theoretical and Mathematical Physics: proceedings of the CMSA Mathematics and Machine Learning Program 2025. [2025 preprint](https://arxiv.org/abs/2503.11061). [GitHub Repository](https://github.com/kitft/funsearch).
 
@@ -43,11 +35,20 @@ Access to the metric has allowed for the calculation of previously inaccessible 
 
 **Not so flat metrics**, Kit Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Manki Kim. [2024 preprint](https://arxiv.org/abs/2411.00962). [GitHub Repository](https://github.com/kitft/cymetricap).
 
-**Computation of quark masses from string theory**, Andrei Constantin, Kit Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Andre Lukas, Burt Ovrut. Published in: Nucl.Phys.B 1010 (2025) 116778. [2024 preprint](https://arxiv.org/abs/2402.01615). [GitHub Repository](https://github.com/kitft/heteroticyukawas).
+**Computation of quark masses from string theory**, Andrei Constantin, Kit Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Andre Lukas, Burt Ovrut. Nucl.Phys.B 1010 (2025) 116778. [2024 preprint](https://arxiv.org/abs/2402.01615). [GitHub Repository](https://github.com/kitft/heteroticyukawas).
 
 Although it wasn't used in any of the above publications, I have written [my own code](https://github.com/harveyThomas4692/jax_metric_CalabiYau) for finding these Ricci-flat metrics. The method is equivalent to the phi-model introduced in [cymetric](https://github.com/pythoncymetric/cymetric) but with projective neural networks that automatically satisfy the transition loss criteria. This was written mostly for my own amusement, as I wanted something, unlike the alternatives, in a functional programming paradigm. My hope being that this would maximise clarity, over speed, for someone who is more familiar with the mathematics than the computational methods. As such, I've used this when introducing mathematicians and physicists to numerical geometry. For research purposes, I suggest using either [cymetric](https://github.com/pythoncymetric/cymetric) or [cymyc](https://github.com/Justin-Tan/cymyc) which are both more generic.
 
 [^1]: We should note that there is a special exception here for non-geometric models and the standard embedding for the heterotic string. Both of which have proven to be very restrictive for obtaining quasi-realistic physics.
+
+## Neural Network Optimisation
+Training neural networks is central to deep learning, and the choice of optimiser is often critical for success. Many standard methods (such as Adam) can be viewed as imposing a particular metric on the parameter space. My recent work explores new optimisers that take this perspective literally, using principled metrics on the loss landscape as a guide for training.
+
+**Sven: Singular Value Descent as a Computationally Efficient Natural Gradient Method †**, Samuel Bright-Thonney*, <ins>Thomas R. Harvey</ins>\*, Andre Lukas, Jesse Thaler. [2026 preprint](https://arxiv.org/abs/2604.01279). [GitHub Repository](https://github.com/sambt/sven-experiments/).
+
+*Equal contribution.
+
+**The Optimiser Hidden in Plain Sight: Training with the Loss Landscape's Induced Metric**, <ins>Thomas R. Harvey</ins>. [2025 preprint](https://arxiv.org/abs/2509.03594). [GitHub Repository](https://github.com/harveyThomas4692/Induced-Metric-Optimiser).
 
 ## Discrete Optimisation for String Theory with Reinforcement Learning and Genetic Algorithms
 All of the phenomenologically promising constructions from string theory result in vast landscapes. Focusing on perturbative IIB
@@ -66,7 +67,7 @@ In order to tie in with an existing Mathematica codebase for string theory calcu
 - [GA in C](https://github.com/harveyThomas4692/GA-C)
 
 **Fermion Masses and Mixing in String-Inspired Models**
-Andrei Constantin, Kit Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Lucas T.Y. Leung, Andre Lukas. [2024 preprint](https://arxiv.org/abs/2410.17704). [GitHub Respository](https://github.com/LucasLeung149/stringFNmodels)
+Andrei Constantin, Kit Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Lucas T.Y. Leung, Andre Lukas. JHEP 06 (2025) 175. [2024 preprint](https://arxiv.org/abs/2410.17704). [GitHub Respository](https://github.com/LucasLeung149/stringFNmodels)
 
 **Decoding Nature with Nature's Tools: Heterotic Line Bundle Models of Particle Physics with Genetic Algorithms and Quantum Annealing**, Steve A. Abel, Andrei Constantin, <ins>Thomas R. Harvey</ins>, Andre Lukas, Luca A. Nutricati. Fortsch.Phys. 72 (2024) 2, 2300260. [2023 preprint](https://arxiv.org/abs/2306.03147). [GitHub Repository](https://github.com/harveyThomas4692/GA-LineBundles).
 
