@@ -1,15 +1,10 @@
 Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and Fundamental Interactions)](https://iaifi.org/) fellow at MIT. My research predominantly lies at the intersection of machine learning, theoretical physics and mathematics. See the research section further down for more details.
-- [Blog Posts](#blog-posts)
 - [Research](#research)
 - [Notes](#notes)
+- [Blog Posts](#blog-posts)
 - [Education](#education)
 - [Outreach](#outreach)
 - [Links and Contact](#links-and-contact)
-
-# Blog Posts
-I recently decided to add this section to my website, as I occasionally find myself working on or thinking about topics that, for various reasons, are not always appropriate for formal publication, but which I would still like to share with the broader community. My website seemed like the natural place for these less formal discussions.
-
-[Some Comments and Discussion on Natural Gradient Methods](nat_grad.md) - 17th Sept 2025
 
 # Research
 - [AI Concepts for Physics](#ai-concepts-for-physics)
@@ -108,6 +103,11 @@ I should state something important up front: I love physics textbooks and have a
 [TeX Files](tex_string.zip)
 
 Solutions to appear...
+
+# Blog Posts
+I recently decided to add this section to my website, as I occasionally find myself working on or thinking about topics that, for various reasons, are not always appropriate for formal publication, but which I would still like to share with the broader community. My website seemed like the natural place for these less formal discussions.
+
+[Some Comments and Discussion on Natural Gradient Methods](nat_grad.md) - 17th Sept 2025
 
 # Education
 **University of Oxford (DPhil)** - Theoretical Physics (2020-2024)
