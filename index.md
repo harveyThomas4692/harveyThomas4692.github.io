@@ -41,7 +41,7 @@ Although it wasn't used in any of the above publications, I have written [my own
 
 [^1]: We should note that there is a special exception here for non-geometric models and the standard embedding for the heterotic string. Both of which have proven to be very restrictive for obtaining quasi-realistic physics.
 
-## Physics For AI: Neural Network Optimisation
+## Physics for AI: Neural Network Optimisation
 Training neural networks is central to deep learning, and the choice of optimiser is often critical for success. Many standard methods (such as Adam) can be viewed as imposing a particular metric on the parameter space. My recent work explores new optimisers that take this perspective literally, using principled metrics on the loss landscape as a guide for training.
 
 **Sven: Singular Value Descent as a Computationally Efficient Natural Gradient Method †**, Samuel Bright-Thonney*, <ins>Thomas R. Harvey</ins>\*, Andre Lukas, Jesse Thaler. [2026 preprint](https://arxiv.org/abs/2604.01279). [GitHub Repository](https://github.com/sambt/sven-experiments/).
