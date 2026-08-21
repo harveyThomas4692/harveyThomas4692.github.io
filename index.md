@@ -10,7 +10,7 @@ Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and F
 - [AI Concepts for Physics](#ai-concepts-for-physics)
 - [Large Language Models for Agentic Mathematics](#large-language-models-for-agentic-mathematics)
 - [Numerical Geometry with Neural Networks](#numerical-geometry-with-neural-networks)
-- [Neural Network Optimisation](#neural-network-optimisation)
+- [Physics for AI: Neural Network Optimisation](#physics-for-ai-neural-network-optimisation)
 - [Discrete Optimisation for String Theory with Reinforcement Learning and Genetic Algorithms](#discrete-optimisation-for-string-theory-with-reinforcement-learning-and-genetic-algorithms)
 - [Other Work](#other-work)
 
@@ -41,7 +41,7 @@ Although it wasn't used in any of the above publications, I have written [my own
 
 [^1]: We should note that there is a special exception here for non-geometric models and the standard embedding for the heterotic string. Both of which have proven to be very restrictive for obtaining quasi-realistic physics.
 
-## Neural Network Optimisation
+## Physics For AI: Neural Network Optimisation
 Training neural networks is central to deep learning, and the choice of optimiser is often critical for success. Many standard methods (such as Adam) can be viewed as imposing a particular metric on the parameter space. My recent work explores new optimisers that take this perspective literally, using principled metrics on the loss landscape as a guide for training.
 
 **Sven: Singular Value Descent as a Computationally Efficient Natural Gradient Method †**, Samuel Bright-Thonney*, <ins>Thomas R. Harvey</ins>\*, Andre Lukas, Jesse Thaler. [2026 preprint](https://arxiv.org/abs/2604.01279). [GitHub Repository](https://github.com/sambt/sven-experiments/).
