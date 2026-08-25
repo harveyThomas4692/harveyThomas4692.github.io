@@ -19,6 +19,8 @@ Welcome to my website! I'm an [IAIFI (Institute of Artificial Intelligence and F
 ## AI Concepts for Physics
 I am exploring how conceptual and statistical frameworks from AI theory can provide new perspectives on foundational questions in theoretical physics. While there has been some work in this direction, this remains a relatively underexplored avenue. 
 
+**What Neural Network Field Theory Can and Cannot Realise on a Computer**, <ins>Thomas R. Harvey</ins>. [2026 preprint](https://arxiv.org/abs/2608.21523)
+
 **Naturalness and Fisher Information**, James Halverson <ins>Thomas R. Harvey</ins>, Michael Nee. [2026 preprint](https://arxiv.org/abs/2603.01411).
 
 ## Large Language Models for Agentic Mathematics
