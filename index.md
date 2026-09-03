@@ -137,8 +137,9 @@ Some of the most watched videos include I am credited for (views listed at time 
 
 # Links and Contact
 - [Email](mailto:trharvey@mit.edu)
-- [Inspire-HEP](https://inspirehep.net/authors/1851078?ui-citation-summary=true)
 - [Google Scholar](https://scholar.google.com/citations?user=JwMJUhwAAAAJ&hl=en)
+- [Inspire-HEP](https://inspirehep.net/authors/1851078?ui-citation-summary=true)
 - [GitHub](https://github.com/harveyThomas4692)
 - [LinkedIn](https://www.linkedin.com/in/thomas-harvey-1ab91012a/)
-- [Twitter/X](https://x.com/Airsofter4692) 
+- [Twitter/X](https://x.com/Airsofter4692)
+- [IMDB (Apparently)](https://www.imdb.com/name/nm13520016/)
