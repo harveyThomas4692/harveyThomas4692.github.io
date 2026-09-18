@@ -35,6 +35,8 @@ Compact Calabi-Yau manifolds are of great importance to string theorists and mat
 
 Access to the metric has allowed for the calculation of previously inaccessible data. For example, the masses and mixings of particles in the resulting 4D physics[^1] - a crucial component for the phenomenology of string theory. These have also allowed one to check a number of the assumptions made in string compactifications, in particular if the α' expansion is really under control in when the volume of the compact space is large. I've contributed to both of these problems in the papers and repositories below.
 
+**Calculating Axion-Matter Couplings in String Theory** Joshua N. Benabou, Naomi Gendler, <ins>Thomas R. Harvey</ins>, Jakob Moritz. 2026 preprint. [GitHub Repository](https://github.com/harveyThomas4692/axion-matter-couplings).
+
 **Not so flat metrics**, Kit Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Manki Kim. [2024 preprint](https://arxiv.org/abs/2411.00962). [GitHub Repository](https://github.com/kitft/cymetricap).
 
 **Computation of quark masses from string theory**, Andrei Constantin, Kit Fraser-Taliente, <ins>Thomas R. Harvey</ins>, Andre Lukas, Burt Ovrut. Nucl.Phys.B 1010 (2025) 116778. [2024 preprint](https://arxiv.org/abs/2402.01615). [GitHub Repository](https://github.com/kitft/heteroticyukawas).
